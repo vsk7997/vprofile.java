@@ -1,4 +1,4 @@
-ipipeline {
+pipeline {
     agent any
     
     stages {
@@ -16,7 +16,6 @@ ipipeline {
             steps {
                 sh 'echo "Deploying"'
             }
-        }
-    }
+        }    }
 }
 
